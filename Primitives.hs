@@ -5,7 +5,7 @@
 {-# LANGUAGE TypeFamilies #-}
 {-# LANGUAGE ViewPatterns #-}
 
-module Shentong.Primitives where
+module Shentong.Core.Primitives where
 
 import Control.Applicative
 import Control.Exception
@@ -23,8 +23,8 @@ import qualified Data.Vector as V
 import qualified Data.Vector.Mutable as MV
 import System.CPUTime
 import System.IO
-import Shentong.Types
-import Shentong.Utils
+import Shentong.Core.Types
+import Shentong.Core.Utils
 
 {-
 intern: maps a string containing a symbol to a symbol
